@@ -24,7 +24,7 @@ a:hover{
 /* sections */
 
 #landing {
-    padding-top: 20em;
+    padding-top: 24em;
     padding-bottom: 20em;
     text-align: center;
 }
@@ -197,6 +197,7 @@ body {
     text-align: center;
     font-weight: 400;
     margin-top: -10px;
+    padding-bottom: 40px;
   }
 
 /*width control */
