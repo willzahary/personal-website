@@ -1,4 +1,4 @@
-# Will Zahary — Personal Website v1.0
+# willzahary.com — Personal Website v1.0
 This is my **first** personal website. After I began looking into web development, I thought a personal website would be a great first project. I built this website from scratch using mostly my own HTML and CSS; the only things I copied from elsewhere are the down arrow animation found [here](https://codepen.io/raf187/pen/BvgGRQ), and the changing text effect on the landing page found [here](https://stackoverflow.com/questions/17254442/how-to-fade-in-out-multiple-texts-using-css-jquery-like-on-droplr).
 
 ## Some Basic Information
