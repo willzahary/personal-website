@@ -404,6 +404,7 @@ input:checked + .slider:before {
     #content {
         margin: 0 auto;
         width: 75%;
+        padding-left: 0px;
     }
 
     .expbox {
