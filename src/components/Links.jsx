@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from '../components/Link'
-import {CopyToClipboard} from 'react-copy-to-clipboard';
 
 import {
     LINK_RESUME,
