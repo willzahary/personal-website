@@ -28,10 +28,8 @@ export const Link = ({ link, icon, name, copy }) => {
                     text={copy}
                     onCopy={() => setCopied(true)}
                 >
-                    <a>
-                        <span className='fa'><FontAwesomeIcon icon={icon} size="3x" /></span>
-                        <p className='link-sub'>{ copied ? "Copied!" : "Copy email" }</p>
-                    </a>
+                    <span className='fa'><FontAwesomeIcon icon={icon} size="3x" /></span>
+                    <p className='link-sub'>{ copied ? "Copied!" : "Copy email" }</p>
                 </CopyToClipboard>
             </>
     )
