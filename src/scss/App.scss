@@ -1,0 +1,302 @@
+@import "colors";
+
+
+html,
+body,
+#root,
+.content {
+  height: 100%;
+  // min-height: 700px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "open-sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: $bg-primary;
+  color: $primary;
+  min-width: 300px;
+}
+
+h1 {
+  font-family: "objektiv-mk1", sans-serif;
+  font-weight: 800;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  color: $primary;
+  text-decoration: none;
+  &:hover,
+  &:active,
+  &:focus {
+    color: $primary;
+    text-decoration: none;
+  }
+  cursor: pointer;
+}
+
+.landing {
+
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  // flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+
+  .landing-text {
+
+    max-width: 650px;
+    margin: 40px;
+
+    h1 {
+      font-size: 65px;
+      margin-bottom: 0;
+      margin-top: 0;
+
+      // animation
+      background: -webkit-linear-gradient(left, $blue, $purple);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: hue 10s infinite ease-in-out;
+      -webkit-animation: hue 10s infinite ease-in-out;
+    }
+
+    p {
+      font-size: 28px;
+      margin-top: 20px;
+      margin-bottom: 0;
+    }
+
+    .links {
+
+      height: 80px;
+      display: flex;
+      flex-direction: row;
+      margin-top: 40px;
+      align-items: center;
+
+      .link {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+
+        .fa {
+          margin-left: 12px;
+          margin-right: 12px;
+        }
+  
+        p {
+          visibility: hidden;
+          margin: 0;
+          font-size: 14px;
+          text-align: center;
+          opacity: 0;
+          transition: visibility 0s, opacity 0.2s, margin 0.2s ease-in-out;
+        }
+
+        &:hover {
+
+          p {
+            margin-top: 15px;
+            visibility: visible;
+            opacity: 1;
+          }
+  
+        }
+  
+      }
+
+    }
+
+  }
+
+  .logo {
+      width: 500px;
+      height: auto;
+      margin: 40px;
+      animation: hue 10s infinite ease-in-out;
+      -webkit-animation: hue 10s infinite ease-in-out;
+  }
+
+}
+
+@media (max-width: 1700px) {
+  .landing {
+
+    .landing-text {
+
+      width: 40vw;
+
+      h1 {
+        font-size: 56px;
+        line-height: 66px;
+      }
+
+      p {
+        font-size: 26px;
+      }
+    
+    }
+
+    .logo {
+      min-width: 200px;
+      width: 26vw;
+      height: 16vw;
+    }
+
+  }
+
+}
+
+
+@media (max-width: 1040px) {
+
+  .landing {
+
+    width: 90%;
+
+    align-items: normal;
+    justify-content: center;
+    text-align: center;
+
+    .landing-text {
+
+      width: auto;
+      margin: 40px;
+
+      h1 {
+        font-size: 56px;
+        line-height: 68px;
+      }
+
+      .links {
+        
+        justify-content: center;
+        margin-top: 40px;
+
+        .link {
+
+          p {
+            visibility: visible;
+            opacity: 1;
+            font-size: 10px;
+            margin-top: 8px;
+          }
+
+        }
+      
+      }
+
+    }
+
+    .logo {
+      min-width: 200px;
+      width: 40vw;
+      height: 26vw;
+    }
+
+  }
+
+}
+
+@media (max-width: 500px) {
+
+  .landing {
+
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    justify-content: left;
+    text-align: left;
+
+    .landing-text {
+
+      margin: 30px;
+
+      h1 {
+        font-size: 52px;
+        line-height: 62px;
+      }
+
+      p {
+        font-size: 22px;
+      }
+
+      .links {
+        
+        // justify-content: left;
+        margin-top: 80px;
+
+        .link {
+
+          .fa {
+            margin-left: 8px;
+            margin-right: 8px;
+            font-size: 14px;
+          }
+
+        }
+      
+      }
+
+    }
+
+    .logo {
+      display: none;
+    }
+
+  }
+
+}
+
+@media (max-height: 700px) {
+
+  .landing {
+
+    .landing-text {
+
+      h1 {
+        font-size: 46px;
+        line-height: 58px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+
+    }
+
+    .logo {
+      display: none;
+    }
+
+  }
+
+}
+
+
+@keyframes hue {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  45% {
+    -webkit-filter: hue-rotate(90deg);
+  }
+  90% {
+    -webkit-filter: hue-rotate(0deg);
+  }
+}
