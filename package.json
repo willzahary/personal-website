@@ -1,7 +1,6 @@
 {
   "name": "personal-website",
   "version": "0.1.0",
-  "homepage": "http://willstats.github.io/personal-website",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
