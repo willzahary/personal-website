@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from '../components/Link'
 
 import {
-    LINK_RESUME,
+    // LINK_RESUME,
     LINK_LINKEDIN,
     LINK_GITHUB,
     LINK_TWITTER,
@@ -10,12 +10,12 @@ import {
 } from '../links'
 
 const link_items = [
-    {
-        key: 1,
-        name: "Resume",
-        link: LINK_RESUME,
-        icon: ['fas', 'file-alt']
-    },
+    // {
+    //     key: 1,
+    //     name: "Resume",
+    //     link: LINK_RESUME,
+    //     icon: ['fas', 'file-alt']
+    // },
     {
         key: 2,
         name: "LinkedIn",

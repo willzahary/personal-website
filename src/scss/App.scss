@@ -43,6 +43,12 @@ a {
   cursor: pointer;
 }
 
+.inline-link, .courselink {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 .landing {
 
   width: 80%;
@@ -120,6 +126,10 @@ a {
   
       }
 
+    }
+
+    .courselink {
+      font-weight: 600;
     }
 
   }

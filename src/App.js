@@ -1,7 +1,8 @@
-import { Landing } from './pages/Landing';
+import React from 'react';
+import { Main } from './components/Main';
 import './scss/App.scss';
 import {library} from "@fortawesome/fontawesome-svg-core";
-
+import { BrowserRouter as Router } from 'react-router-dom';
 
 // Icons
 
@@ -28,7 +29,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Landing />
+        <Router>
+          <Main />
+        </Router>
       </header>
     </div>
   );

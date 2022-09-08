@@ -1,7 +1,9 @@
-import Resume from './resume.pdf'
-
-export const LINK_RESUME = Resume;
 export const LINK_LINKEDIN = "https://linkedin.com/in/willzahary/";
 export const LINK_GITHUB = "https://github.com/willstats/";
 export const LINK_TWITTER = "https://twitter.com/willzahary/";
 export const EMAIL = "williamzahary@gmail.com";
+export const LINK_COMP302 = "https://www.mcgill.ca/study/2022-2023/courses/comp-302"
+export const LINK_COMP330 = "https://www.cs.mcgill.ca/~prakash/Courses/Comp330/comp330.html"
+export const LINK_COMP525 = "https://www.cs.mcgill.ca/~prakash/Courses/Comp525/comp525.html"
+export const LINK_MATH350 = "https://www.mcgill.ca/study/2022-2023/courses/math-350"
+export const LINK_MATH456 = "https://www.mcgill.ca/study/2022-2023/courses/math-456"
