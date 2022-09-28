@@ -9,10 +9,13 @@ export const Landing = () => {
             <div className="landing-text">
                 <h1>Hi, I'm Will Zahary.</h1>
                 <p>
-                    I'm a software developer studying mathematics and computer science at McGill University, with specific interests in group theory, probability theory, and algorithm design.
+                    I'm a software developer studying mathematics and computer science at McGill University.
                 </p>
                 <p>
-                    This past summer, I interned as a software engineer at Amazon in Vancouver, BC, working in the transportation organization. Now, I'm back in Montréal, taking <a href="/courses" className="inline-link">some courses that interest me</a>.
+                    This past summer, I interned as a software engineer at Amazon in Vancouver. Now, I'm back in Montréal, taking <a href="/courses" className="inline-link">some courses that interest me</a>.
+                </p>
+                <p>
+                    Next summer, I'll be in San Francisco interning at <a href="https://databricks.com/" className="inline-link">Databricks</a>.
                 </p>
                 <Links />
             </div>
