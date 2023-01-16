@@ -2,14 +2,9 @@ import React from 'react'
 import { CourseLink } from '../components/CourseLink'
 
 import {
-    LINK_COMP302,
-    LINK_COMP330,
     LINK_COMP362,
-    LINK_COMP525,
     LINK_COMP535,
     LINK_MATH255,
-    LINK_MATH350,
-    LINK_MATH456,
     LINK_MATH457,
     LINK_MATH553
 } from '../links'

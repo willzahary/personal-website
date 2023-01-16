@@ -5,7 +5,8 @@ html,
 body,
 #root,
 .content {
-  height: 100vh;
+  //height: 100vh;
+  overflow: hidden;
   // min-height: 700px;
 }
 
@@ -226,7 +227,6 @@ a {
 @media (max-width: 500px) {
 
   .landing {
-
     align-items: center;
     margin: 0px;
     width: 100%;
