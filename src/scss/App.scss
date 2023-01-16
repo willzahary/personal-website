@@ -1,14 +1,14 @@
 @import "colors";
 
 
-html,
-body,
-#root,
-.content {
-  //height: 100vh;
-  overflow: hidden;
-  // min-height: 700px;
-}
+// html,
+// body,
+// #root,
+// .content {
+//   //height: 100vh;
+//   overflow: hidden;
+//   // min-height: 700px;
+// }
 
 body {
   margin: 0;
@@ -225,6 +225,10 @@ a {
 }
 
 @media (max-width: 500px) {
+
+  body {
+    height: 90vh;
+  }
 
   .landing {
     align-items: center;
