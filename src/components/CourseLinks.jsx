@@ -4,41 +4,46 @@ import { CourseLink } from '../components/CourseLink'
 import {
     LINK_COMP302,
     LINK_COMP330,
+    LINK_COMP362,
     LINK_COMP525,
+    LINK_COMP535,
+    LINK_MATH255,
     LINK_MATH350,
-    LINK_MATH456
+    LINK_MATH456,
+    LINK_MATH457,
+    LINK_MATH553
 } from '../links'
 
 const courselink_items = [
     {
         key: 1,
-        code: "COMP 302",
-        title: "Languages and Paradigms",
-        link: LINK_COMP302,
+        code: "COMP 362",
+        title: "Algorithm Design",
+        link: LINK_COMP362,
     },
     {
         key: 2,
-        code: "COMP 330",
-        title: "Automata Theory",
-        link: LINK_COMP330,
+        code: "COMP 535",
+        title: "Computer Networks",
+        link: LINK_COMP535,
     },
     {
         key: 3,
-        code: "COMP 525",
-        title: "Formal Verification",
-        link: LINK_COMP525,
+        code: "MATH 255",
+        title: "Analysis 2",
+        link: LINK_MATH255,
     },
     {
         key: 4,
-        code: "MATH 350",
-        title: "Graph Theory",
-        link: LINK_MATH350,
+        code: "MATH 457",
+        title: "Rings & Galois Theory",
+        link: LINK_MATH457,
     },
     {
         key: 5,
-        code: "MATH 456",
-        title: "Group Theory",
-        link: LINK_MATH456,
+        code: "MATH 553",
+        title: "Algorithmic Game Theory",
+        link: LINK_MATH553,
     },
 ]
 

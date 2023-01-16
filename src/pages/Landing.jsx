@@ -7,15 +7,15 @@ export const Landing = () => {
     return (
         <div className="landing">
             <div className="landing-text">
-                <h1>Hi, I'm Will Zahary.</h1>
+                <h1>Hi, I'm Will Zahary</h1>
                 <p>
-                    I'm a software developer studying mathematics and computer science at McGill University.
+                    I study <a href="/courses" className="inline-link">math and computer science</a> at McGill University. I'm primarily interested in algorithms and algebra.
                 </p>
                 <p>
-                    This past summer, I interned as a software engineer at Amazon in Vancouver. Now, I'm back in Montréal, taking <a href="/courses" className="inline-link">some courses that interest me</a>.
+                    Right now, I'm one of the course assistants for Honours Algorithms taught by Luc Devroye.
                 </p>
                 <p>
-                    Next summer, I'll be in San Francisco interning at <a href="https://databricks.com/" className="inline-link">Databricks</a>.
+                    This summer, I'll be interning at <a href="https://databricks.com/" className="inline-link">Databricks</a> in San Francisco.
                 </p>
                 <Links />
             </div>

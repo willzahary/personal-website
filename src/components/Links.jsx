@@ -22,12 +22,12 @@ const link_items = [
         link: LINK_LINKEDIN,
         icon: ['fab', 'linkedin'],
     },
-    {
-        key: 3,
-        name: "GitHub",
-        link: LINK_GITHUB,
-        icon: ['fab', 'github'],
-    },
+    // {
+    //     key: 3,
+    //     name: "GitHub",
+    //     link: LINK_GITHUB,
+    //     icon: ['fab', 'github'],
+    // },
     {
         key: 4,
         name: "Twitter",
