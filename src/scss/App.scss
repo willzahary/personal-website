@@ -80,6 +80,33 @@ a {
       -webkit-animation: hue 10s infinite ease-in-out;
     }
 
+    .albums-header {
+      font-size: 45px;
+      margin-bottom: 20px;
+    }
+
+    .albums-table {
+      width: 100%;
+
+      td {
+        font-size: 20px;
+        padding-right: 40px;
+        padding-bottom: 10px;
+      }
+
+      .album-title {
+        font-weight: 400;
+      }
+
+      .album-artist {
+        font-weight: 300;
+      }
+    
+      .album-link {
+        color: $purple;
+      }
+    }
+
     p {
       font-size: 26px;
       margin-top: 20px;
@@ -242,6 +269,21 @@ a {
         font-size: 52px;
         line-height: 62px;
         margin-bottom: 40px;
+      }
+
+      .albums-header {
+        font-size: 32px;
+      }
+
+      .albums-table {
+        width: 100%;
+  
+        td {
+          font-size: 16px;
+          padding-right: 10px;
+          padding-left: 0;
+          padding-bottom: 10px;
+        }
       }
 
       p {
