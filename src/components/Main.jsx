@@ -8,7 +8,9 @@ export const Main = () => {
     let routes = useRoutes([
         { path: "/", element: <Landing /> },
         { path: "courses", element: <Courses /> },
-        { path: "music", element: <Music /> }
+        { path: "music", element: <Music /> },
+        { path: "files/252practice.pdf"}
+        // { path: "ina", element: <Ina /> }
       ]);
     return routes;
 }
