@@ -72,7 +72,7 @@ a {
       margin-top: 0;
 
       // animation
-      background: -webkit-linear-gradient(left, $blue, $purple);
+      background: -webkit-linear-gradient(left, $blue, $green);
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -207,9 +207,7 @@ a {
 
     width: 90%;
 
-    align-items: normal;
     justify-content: center;
-    text-align: center;
 
     .landing-text {
 
@@ -241,11 +239,11 @@ a {
 
     }
 
-    .logo {
-      min-width: 200px;
-      width: 40vw;
-      height: 26vw;
-    }
+    // .logo {
+    //   min-width: 200px;
+    //   width: 40vw;
+    //   height: 26vw;
+    // }
 
   }
 
@@ -353,7 +351,7 @@ a {
     -webkit-filter: hue-rotate(0deg);
   }
   45% {
-    -webkit-filter: hue-rotate(90deg);
+    -webkit-filter: hue-rotate(-45deg);
   }
   90% {
     -webkit-filter: hue-rotate(0deg);
