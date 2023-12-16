@@ -15,8 +15,7 @@ export const Link = ({ link, icon, name, copy }) => {
                     target="_blank"
                     rel='noopener noreferrer'
                 >
-                    <span className='fa'><FontAwesomeIcon icon={icon} size="3x" /></span>
-                    <p className='link-sub'>{name}</p>
+                    <p className='link-sub'>[{name}]</p>
                 </a>
             </>
         )
@@ -29,8 +28,7 @@ export const Link = ({ link, icon, name, copy }) => {
                     onCopy={() => setCopied(true)}
                 >
                 <span>
-                    <span className='fa'><FontAwesomeIcon icon={icon} size="3x" /></span>
-                    <p className='link-sub'>{ copied ? "Copied!" : "Copy email" }</p>
+                    <p className='link-sub'>{ copied ? "[Copied Email]" : "[Copy Email]" }</p>
                 </span>
                 </CopyToClipboard>
             </>

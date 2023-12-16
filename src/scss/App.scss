@@ -13,7 +13,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "open-sans", sans-serif;
+  font-family: 'open-sans', serif;
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
@@ -23,8 +24,10 @@ body {
 }
 
 h1 {
-  font-family: "objektiv-mk1", sans-serif;
-  font-weight: 800;
+  font-family: 'orpheuspro', serif;
+  font-weight: 700;
+  color: $olive;
+  font-size: 36px;
 }
 
 code {
@@ -32,16 +35,27 @@ code {
     monospace;
 }
 
-a {
-  color: $primary;
+p {
+  font-style: normal;
+  font-size: 18px;
+}
+
+a, .link {
+  color: $olive;
   text-decoration: none;
+  font-weight: 600;
+  transition: color 1s;
   &:hover,
   &:active,
   &:focus {
-    color: $primary;
     text-decoration: none;
+    color: $light-olive;
   }
   cursor: pointer;
+}
+
+.ita {
+  font-style: italic;
 }
 
 .inline-link, .courselink {
@@ -51,268 +65,58 @@ a {
 }
 
 .landing {
-
-  width: 80%;
-  height: 100vh;
-  margin: auto;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  margin-top: 20vh;
   display: flex;
-  flex-wrap: wrap-reverse;
-  // flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
 
   .landing-text {
-
-    max-width: 650px;
-    margin: 40px;
-
-    h1 {
-      font-size: 65px;
-      margin-bottom: 0;
-      margin-top: 0;
-
-      // animation
-      background: -webkit-linear-gradient(left, $blue, $green);
-      background-clip: text;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      animation: hue 10s infinite ease-in-out;
-      -webkit-animation: hue 10s infinite ease-in-out;
-    }
-
-    .albums-header {
-      font-size: 45px;
-      margin-bottom: 20px;
-    }
-
-    .albums-table {
-      width: 100%;
-
-      td {
-        font-size: 20px;
-        padding-right: 40px;
-        padding-bottom: 10px;
-      }
-
-      .album-title {
-        font-weight: 400;
-      }
-
-      .album-artist {
-        font-weight: 300;
-      }
-    
-      .album-link {
-        color: $purple;
-      }
-    }
-
-    p {
-      font-size: 26px;
-      margin-top: 20px;
-      margin-bottom: 0;
-    }
+    width: 50%;
+    padding-bottom: 50px;
 
     .links {
-
-      height: 80px;
+      margin-left: 0px;
       display: flex;
       flex-direction: row;
-      margin-top: 40px;
-      align-items: center;
 
       .link {
+        padding-right: 10px;
+        text-align: left;
 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        
-
-        .fa {
-          margin-left: 12px;
-          margin-right: 12px;
-        }
-  
-        p {
-          visibility: hidden;
-          margin: 0;
+        .link-sub {
           font-size: 14px;
-          text-align: center;
-          opacity: 0;
-          transition: visibility 0s, opacity 0.2s, margin 0.2s ease-in-out;
         }
-
-        &:hover {
-
-          p {
-            margin-top: 15px;
-            visibility: visible;
-            opacity: 1;
-          }
-  
-        }
-  
       }
-
     }
-
-    .courselink {
-      font-weight: 600;
-    }
-
   }
 
-  .logo {
-      width: 500px;
-      height: auto;
-      margin: 40px;
-      animation: hue 10s infinite ease-in-out;
-      -webkit-animation: hue 10s infinite ease-in-out;
-  }
+  .landing-image {
+    width: 40%;
 
+    img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+  }
 }
 
-@media (max-width: 1700px) {
-  .landing {
-
-    .landing-text {
-
-      width: 40vw;
-
-      h1 {
-        font-size: 56px;
-        line-height: 66px;
-      }
-
-      p {
-        font-size: 24px;
-      }
-    
-    }
-
-    .logo {
-      min-width: 200px;
-      width: 26vw;
-      height: 16vw;
-    }
-
-  }
-
-}
-
-
-@media (max-width: 1040px) {
+@media (max-width: 900px) {
 
   .landing {
 
-    width: 90%;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 15vh;
 
-    justify-content: center;
-
-    .landing-text {
-
-      width: auto;
-      margin: 40px;
-
-      h1 {
-        font-size: 56px;
-        line-height: 68px;
-      }
-
-      .links {
-        
-        justify-content: center;
-        margin-top: 40px;
-
-        .link {
-
-          p {
-            visibility: visible;
-            opacity: 1;
-            font-size: 10px;
-            margin-top: 8px;
-          }
-
-        }
-      
-      }
-
+    .landing-text { 
+      width: 100%; 
     }
 
-    // .logo {
-    //   min-width: 200px;
-    //   width: 40vw;
-    //   height: 26vw;
-    // }
-
-  }
-
-}
-
-@media (max-width: 500px) {
-
-  .landing {
-    height: 90vh;
-    align-items: center;
-    margin: 0px;
-    width: 100%;
-    justify-content: left;
-    text-align: left;
-
-    .landing-text {
-
-      margin: 30px;
-
-      h1 {
-        font-size: 52px;
-        line-height: 62px;
-        margin-bottom: 40px;
-      }
-
-      .albums-header {
-        font-size: 32px;
-      }
-
-      .albums-table {
-        width: 100%;
-  
-        td {
-          font-size: 16px;
-          padding-right: 10px;
-          padding-left: 0;
-          padding-bottom: 10px;
-        }
-      }
-
-      p {
-        font-size: 20px;
-      }
-
-      .links {
-        
-        justify-content: left;
-        margin-top: 40px;
-        margin-left: -8px;
-
-        .link {
-
-          .fa {
-            margin-left: 10px;
-            margin-right: 10px;
-            font-size: 14px;
-          }
-
-          p {
-            text-align: center;
-          }
-
-        }
-      
-      }
-
-    }
-
-    .logo {
+    .landing-image {
       display: none;
     }
 
@@ -320,40 +124,3 @@ a {
 
 }
 
-@media (max-height: 600px) {
-
-  .landing {
-
-    .landing-text {
-
-      h1 {
-        font-size: 46px;
-        line-height: 58px;
-      }
-
-      p {
-        font-size: 16px;
-      }
-
-    }
-
-    .logo {
-      display: none;
-    }
-
-  }
-
-}
-
-
-@keyframes hue {
-  0% {
-    -webkit-filter: hue-rotate(0deg);
-  }
-  45% {
-    -webkit-filter: hue-rotate(-45deg);
-  }
-  90% {
-    -webkit-filter: hue-rotate(0deg);
-  }
-}
