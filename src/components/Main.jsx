@@ -2,7 +2,6 @@ import React from 'react';
 import { Landing } from '../pages/Landing';
 import { Courses } from '../pages/Courses';
 import { Music } from '../pages/Music'
-import { About } from '../pages/About'
 import { useRoutes } from 'react-router-dom';
 
 export const Main = () => {
