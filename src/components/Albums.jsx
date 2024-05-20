@@ -7,7 +7,8 @@ import {
     LINK_MARQUEE_MOON,
     LINK_PINK_FLAG,
     LINK_RIL,
-    LINK_VESPERTINE
+    LINK_VESPERTINE,
+    LINK_PUBLIC_STRAIN
 } from '../links'
 
 const album_items = [

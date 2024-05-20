@@ -1,7 +1,8 @@
 import React from 'react';
 import { Landing } from '../pages/Landing';
 import { Courses } from '../pages/Courses';
-import { Music } from '../pages/Music'
+import { Grades } from '../pages/Grades';
+import { Music } from '../pages/Music';
 import { useRoutes } from 'react-router-dom';
 
 export const Main = () => {
@@ -9,8 +10,7 @@ export const Main = () => {
         { path: "/", element: <Landing /> },
         { path: "courses", element: <Courses /> },
         { path: "music", element: <Music /> },
-        { path: "files/252practice.pdf"}
-        // { path: "ina", element: <Ina /> }
+        // { path: "grades", element: <Grades /> }
       ]);
     return routes;
 }

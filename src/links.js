@@ -23,3 +23,4 @@ export const LINK_MARQUEE_MOON = "https://open.spotify.com/album/630o1rKTDsLeIPr
 export const LINK_PINK_FLAG = "https://open.spotify.com/album/4WXqZZ28geJSPtqLcCF56L"
 export const LINK_RIL = "https://open.spotify.com/album/1JvXxLsm0PxlGH4LXzqMGq"
 export const LINK_VESPERTINE = "https://open.spotify.com/album/5vBpIxm8ws6pWyVmTWiGE1"
+export const LINK_PUBLIC_STRAIN = "https://open.spotify.com/album/3Me1df1lSd9s6zkLUoZO4s"

@@ -44,7 +44,7 @@ a, .link {
   color: $olive;
   text-decoration: none;
   font-weight: 600;
-  transition: color 1s;
+  transition: color 2s;
   &:hover,
   &:active,
   &:focus {
@@ -122,5 +122,10 @@ a, .link {
 
   }
 
+}
+
+.rows {
+  display: flex;
+  flex-direction: column;
 }
 

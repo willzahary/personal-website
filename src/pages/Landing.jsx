@@ -7,8 +7,8 @@ export const Landing = () => {
             <div className="landing-text">
                 {/* <h1 className="will">William</h1> */}
                 <h1>Will Zahary</h1>
-                <p>I study math and computer science at McGill University, and I am beginning graduate studies under the supervision of <a href="http://luc.devroye.org">Luc Devroye</a> in 2024. My interests are <a href="https://en.wikipedia.org/wiki/Discrete-time_Markov_chain">discrete-time Markov processes</a> and <a href="https://en.wikipedia.org/wiki/Branching_process">branching processes</a>.</p>
-                <p>I'm originally from <a className='map' href="https://www.google.com/maps/place/Edmonton,+AB+T6J">Edmonton</a>, but I live in <a className='map' href="https://www.google.com/maps/place/Montreal,+QC+H2J">Montréal</a> now. I have also resided in <a className='map' href="https://www.google.com/maps/place/Vancouver,+BC+V6B">Vancouver</a> and <a className='map' href="https://www.google.com/maps/place/San+Francisco,+CA+94114,+USA">San Francisco</a>.</p>
+                <p>I am a software engineer and a computer science graduate student at McGill University under the supervision of <a href="http://luc.devroye.org">Luc Devroye</a>. My research interests are <a href="https://en.wikipedia.org/wiki/Branching_process">branching processes</a> and <a href="https://en.wikipedia.org/wiki/Distributed_computing">distributed computing</a>.</p> 
+                <p>I'm originally from <a className='map' href="https://www.google.com/maps/place/Edmonton,+AB+T6J">Edmonton</a>, but I live in <a href="https://www.google.com/maps/place/Capitol+Hill,+Seattle,+WA">Capitol Hill, Seattle</a> right now.</p>
                 <Links />
             </div>
             <div className="landing-image">
