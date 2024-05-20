@@ -1,7 +1,6 @@
 import React from 'react';
 import { Landing } from '../pages/Landing';
 import { Courses } from '../pages/Courses';
-import { Grades } from '../pages/Grades';
 import { Music } from '../pages/Music';
 import { useRoutes } from 'react-router-dom';
 
