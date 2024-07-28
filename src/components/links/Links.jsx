@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from '../components/Link'
+import { Link } from './Link'
 
 import {
     // LINK_RESUME,
@@ -7,7 +7,7 @@ import {
     LINK_GITHUB,
     LINK_TWITTER,
     EMAIL,
-} from '../links'
+} from '../../links'
 
 const link_items = [
     // {
