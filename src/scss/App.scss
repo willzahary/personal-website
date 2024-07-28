@@ -104,6 +104,15 @@ a, .link {
   }
 }
 
+.not-found {
+  margin-left: 25vw;
+  margin-right: 25vw;
+  margin-top: 20vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (max-width: 900px) {
 
   .landing {
