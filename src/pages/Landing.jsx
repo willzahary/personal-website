@@ -14,6 +14,9 @@ export const Landing = () => {
             <div className="landing-image">
                 <img src="files/noe-valley.jpg" alt="house in san francisco" />
             </div>
+            <div className="landing-image-mobile">
+                <img src="files/hard-at-work.jpg" alt="me, hard at work" />
+            </div>
         </div>
     )
 }

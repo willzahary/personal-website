@@ -102,6 +102,10 @@ a, .link {
       object-fit: contain;
     }
   }
+
+  .landing-image-mobile {
+    display: none;
+  }
 }
 
 .not-found {
@@ -115,18 +119,35 @@ a, .link {
 
 @media (max-width: 900px) {
 
+  p {
+    font-size: 16px;
+  }
+
   .landing {
 
     margin-left: 15vw;
     margin-right: 15vw;
-    margin-top: 15vh;
+    margin-top: 10vh;
 
     .landing-text { 
       width: 100%; 
+      padding-bottom: 20px;
     }
 
     .landing-image {
       display: none;
+    }
+
+    .landing-image-mobile {
+      display: flex;
+      margin: auto;
+
+
+      img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+      }
     }
 
   }
