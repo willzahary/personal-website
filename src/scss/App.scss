@@ -1,15 +1,5 @@
 @import "colors";
 
-
-// html,
-// body,
-// #root,
-// .content {
-//   //height: 100vh;
-//   overflow: hidden;
-//   // min-height: 700px;
-// }
-
 body {
   margin: 0;
   padding: 0;
@@ -127,7 +117,7 @@ a, .link {
 
     margin-left: 15vw;
     margin-right: 15vw;
-    margin-top: 10vh;
+    margin-top: 5vh;
 
     .landing-text { 
       width: 100%; 
@@ -141,6 +131,7 @@ a, .link {
     .landing-image-mobile {
       display: flex;
       margin: auto;
+      margin-bottom: 2vh;
 
 
       img {
