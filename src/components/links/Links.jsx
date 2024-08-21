@@ -28,14 +28,20 @@ const link_items = [
     //     link: LINK_GITHUB,
     //     icon: ['fab', 'github'],
     // },
-    {
-        key: 4,
-        name: "Twitter",
-        link: LINK_TWITTER,
-        icon: ['fab', 'twitter'],
-    },
+    // {
+    //     key: 4,
+    //     name: "Twitter",
+    //     link: LINK_TWITTER,
+    //     icon: ['fab', 'twitter'],
+    // },
     {
         key: 5,
+        name: "Comp 251",
+        link: "./comp251",
+        icon: null,
+    },
+    {
+        key: 6,
         name: "Email",
         link: null,
         copy: EMAIL,

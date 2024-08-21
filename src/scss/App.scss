@@ -20,6 +20,11 @@ h1 {
   font-size: 36px;
 }
 
+h2 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -98,6 +103,30 @@ a, .link {
   }
 }
 
+.comp251 {
+  margin-left: 25vw;
+  margin-right: 25vw;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  .comp251-text {
+    padding-bottom: 50px;
+
+    ul {
+      list-style-type: none;
+      padding-left: 12px;
+
+      li {
+        margin-bottom: 8px;
+      }
+    }
+  }
+}
+
 .not-found {
   margin-left: 25vw;
   margin-right: 25vw;
@@ -144,6 +173,26 @@ a, .link {
       }
     }
 
+  }
+
+  .comp251 {
+
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+
+    .comp251-text {
+      width: 100%;
+
+      li {
+        font-size: 14px;
+      }
+
+      .comp251-title {
+        display: none;
+      }
+    }
   }
 
 }
