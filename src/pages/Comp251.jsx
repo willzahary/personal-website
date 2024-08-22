@@ -75,7 +75,7 @@ export const Comp251 = () => {
             network flows: available nov 26
           </li>
           <li>
-            probabalistic analysis: available dec 3
+            probabilistic analysis: available dec 3
           </li>
         </ul>
 
