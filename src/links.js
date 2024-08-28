@@ -3,7 +3,7 @@ export const LINK_LINKEDIN = "https://linkedin.com/in/willzahary/";
 export const LINK_GITHUB = "https://github.com/willstats/";
 export const LINK_TWITTER = "https://twitter.com/willzahary/";
 export const EMAIL = "williamzahary@gmail.com";
-export const EMAIL_251 = "cs251@cs.mcgill.ca";
+export const EMAIL_251 = "comp251.cs@mcgill.ca";
 
 // links to course codes
 export const LINK_COMP302 = "https://www.mcgill.ca/study/2022-2023/courses/comp-302"

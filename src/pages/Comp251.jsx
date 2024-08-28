@@ -25,7 +25,7 @@ export const Comp251 = () => {
                   </CopyToClipboard>
           </li>
           <li>
-            will's office hours: tba
+            will's office hours: friday 9-12 in mcconnell 312
           </li>
           <li>
             giulia's office hours: tba
