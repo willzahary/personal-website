@@ -38,7 +38,7 @@ export const Comp251 = () => {
         <h2>General Info</h2>
         <ul className="comp251-info">
           <li>
-            syllabus: available aug 26
+            syllabus: <a href="./files/syllabus.pdf">./files/syllabus.pdf</a>
           </li>
           <li>
             location: stewart biology, S1/4
