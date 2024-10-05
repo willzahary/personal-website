@@ -28,10 +28,7 @@ export const Comp251 = () => {
             will's office hours: friday 9-12 in mcconnell 312
           </li>
           <li>
-            giulia's office hours: tba
-          </li>
-          <li>
-            TA office hours: tba
+            giulia and TA office hours: check the calendar on myCourses
           </li>
         </ul>
 
@@ -48,47 +45,25 @@ export const Comp251 = () => {
           </li>
         </ul>
 
-        <h2>Lecture Notes</h2>
+        <h2>Timeline/Deadlines</h2>
         <ul className="comp251-notes">
           <li>
-            time complexity: available sept 10
+            midterm 1: october 8
           </li>
           <li>
-            graphs and probability: available sept 12
+            assignment 1 due: october 10
           </li>
           <li>
-            disjoint sets: available oct 1
+            assignment 2 due: november 5
           </li>
           <li>
-            greedy algorithms: available oct 3
+            midterm 2: november 19
           </li>
           <li>
-            graph algorithms: available oct 10
+            assignment 3 due: november 28
           </li>
           <li>
-            divide and conquer: available nov 5
-          </li>
-          <li>
-            dynamic programming: available nov 12
-          </li>
-          <li>
-            network flows: available nov 26
-          </li>
-          <li>
-            probabilistic analysis: available dec 3
-          </li>
-        </ul>
-
-        <h2>Additional Exercises</h2>
-        <ul className="comp251-exercises">
-          <li>
-            midterm 1 practice: available sept 24
-          </li>
-          <li>
-            midterm 2 practice: available nov 5
-          </li>
-          <li>
-            programming exercises: tba
+            midterm 3 (optional): december 3
           </li>
         </ul>
       </div>
