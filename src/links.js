@@ -2,6 +2,7 @@
 export const LINK_LINKEDIN = "https://linkedin.com/in/willzahary/";
 export const LINK_GITHUB = "https://github.com/willstats/";
 export const LINK_TWITTER = "https://twitter.com/willzahary/";
+export const LINK_LASTFM = "https://www.last.fm/user/willzahary";
 export const EMAIL = "williamzahary@gmail.com";
 export const EMAIL_251 = "comp251.cs@mcgill.ca";
 

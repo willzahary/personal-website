@@ -7,6 +7,7 @@ import {
     LINK_GITHUB,
     LINK_TWITTER,
     EMAIL,
+    LINK_LASTFM,
 } from '../../links'
 
 const link_items = [
@@ -18,7 +19,7 @@ const link_items = [
     // },
     {
         key: 2,
-        name: "LinkedIn",
+        name: "Linkedin",
         link: LINK_LINKEDIN,
         icon: ['fab', 'linkedin'],
     },
@@ -28,16 +29,16 @@ const link_items = [
     //     link: LINK_GITHUB,
     //     icon: ['fab', 'github'],
     // },
-    // {
-    //     key: 4,
-    //     name: "Twitter",
-    //     link: LINK_TWITTER,
-    //     icon: ['fab', 'twitter'],
-    // },
+    {
+        key: 4,
+        name: "Twitter",
+        link: LINK_TWITTER,
+        icon: ['fab', 'twitter'],
+    },
     {
         key: 5,
-        name: "Comp 251",
-        link: "./comp251",
+        name: "last.fm",
+        link: LINK_LASTFM,
         icon: null,
     },
     {

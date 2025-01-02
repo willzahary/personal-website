@@ -35,7 +35,7 @@ export const Comp251 = () => {
         <h2>General Info</h2>
         <ul className="comp251-info">
           <li>
-            syllabus: <a href="comp251/files/syllabus.pdf">./files/syllabus.pdf</a>
+            syllabus: <a target="_blank" rel="noopener noreferrer" href="comp251/files/syllabus.pdf">./files/syllabus.pdf</a>
           </li>
           <li>
             location: stewart biology, S1/4
@@ -45,25 +45,20 @@ export const Comp251 = () => {
           </li>
         </ul>
 
-        <h2>Timeline/Deadlines</h2>
+        <h2>Notes</h2>
         <ul className="comp251-notes">
           <li>
-            midterm 1: october 8
+            divide and conquer algorithms: <a target="_blank" rel="noopener noreferrer" href="comp251/files/divide-and-conquer.pdf">./files/divide-and-conquer.pdf</a>
           </li>
           <li>
-            assignment 1 due: october 10
+            dynamic programming: <a target="_blank" rel="noopener noreferrer" href="comp251/files/dynamic-programming.pdf">./files/dynamic-programming.pdf</a>
           </li>
+        </ul>
+
+        <h2>Slides</h2>
+        <ul className="comp251-notes">
           <li>
-            assignment 2 due: november 5
-          </li>
-          <li>
-            midterm 2: november 19
-          </li>
-          <li>
-            assignment 3 due: november 28
-          </li>
-          <li>
-            midterm 3 (optional): december 3
+            I'll post the slides for the lectures I gave soon... email me (williamzahary@gmail.com) if you want the TeX files.
           </li>
         </ul>
       </div>
